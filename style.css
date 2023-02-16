@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li > .page-link:focus {
+  color: red !important;
+}
